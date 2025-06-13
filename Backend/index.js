@@ -15,7 +15,7 @@ app.use(cors("*"));
 app.use(express.json());
 
 // MongoDB Connection URI
-const DB_HOST = process.env.MONGO_HOST || "localhost";
+const DB_HOST = process.env.MONGO_HOST || "mongodb";
 const DB_PORT = process.env.MONGO_PORT || "27017";
 const DB_NAME = process.env.MONGO_DB || "todos";
 const MONGO_URI = `mongodb://${DB_HOST}:${DB_PORT}`;
