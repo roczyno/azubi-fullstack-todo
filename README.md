@@ -139,9 +139,8 @@ This section outlines the steps to migrate the Dockerized application to AWS, ut
 
 ## Architectural Diagram
 
-```
+
 ![AWS Architectural Diagram](./todo.drawio.png)
-```
 
 This diagram will illustrate the flow of data and the interaction between different AWS services used in the project.
 
