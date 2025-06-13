@@ -1,0 +1,32 @@
+# Node.js
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile*
+docker-compose*
+
+# IDE
+.idea
+.vscode
+
+# Build artifacts
+dist
+build
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+Thumbs.db 

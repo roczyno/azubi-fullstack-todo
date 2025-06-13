@@ -11,7 +11,8 @@ const useGetTodos = (setTodos, setNumOfPages, setPage) => {
         `http://localhost:3000/api/todos?page=${page}&limit=${limit}`
       );
       const data = await response.json();
-      setTodos(data.todoList);
+
+      setTodos(data.todos);
       setNumOfPages(data.numOfPages);
       if (page > data.numOfPages) setPage(data.numOfPages);
     } catch (error) {
