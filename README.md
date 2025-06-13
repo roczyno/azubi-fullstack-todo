@@ -137,6 +137,14 @@ Example `.env` file:
 
 This section outlines the steps to migrate the Dockerized application to AWS, utilizing various AWS services for scalability, security, and performance.
 
+## Architectural Diagram
+
+```
+![AWS Architectural Diagram](./todo.drawio.png)
+```
+
+This diagram will illustrate the flow of data and the interaction between different AWS services used in the project.
+
 ### AWS Services Used
 
 - **CloudFront**: For content delivery and caching.
@@ -193,12 +201,3 @@ This section outlines the steps to migrate the Dockerized application to AWS, ut
 - [AWS Documentation](https://docs.aws.amazon.com/)
 - [AWS CloudFormation](https://aws.amazon.com/cloudformation/) for infrastructure as code.
 
-## Architectural Diagram
-
-Below is a placeholder for the architectural diagram of the AWS setup:
-
-```
-[Insert AWS Architectural Diagram Here]
-```
-
-This diagram will illustrate the flow of data and the interaction between different AWS services used in the project.
